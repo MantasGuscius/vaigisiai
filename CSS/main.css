@@ -1,10 +1,19 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: monospace
+}
+
 body{
     background-color: #E9FF70;
+    font-family: monospace;
 }
 
 main{
     width: 700px;
-    background-color: pink;
     margin-left: calc(50% - 350px);
     margin-top: 10%;
 }
@@ -15,10 +24,21 @@ img{
 
 h1{
     text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 20px;
+    margin-top: 10px;
 }
 
 p{
     text-align: center;
+    margin: 20px;
+    font-weight: bolder;
+    color: #A0B23C;
+}
+
+.bc{
+    margin-top: 20px;
 }
 
 .button{
@@ -28,7 +48,10 @@ p{
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
-
+    background-color: #FEAD1E;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
 }
 
 .button1{
@@ -37,4 +60,8 @@ p{
     padding: 10px;
     padding-left: 25px;
     padding-right: 25px;
+    background-color: #FF7000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
 }
