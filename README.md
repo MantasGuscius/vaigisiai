@@ -16,10 +16,7 @@ Design: [Vagisiai](https://mantasguscius.github.io/vaigisiai/)
 ## Project features
 
 - Github pages
-- multi-page
-- absolute center
-- css blur
-- form
+- Png images
 
 ## Authors
 
